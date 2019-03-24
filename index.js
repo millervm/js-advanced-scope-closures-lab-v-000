@@ -6,3 +6,7 @@ function produceDrivingRange(range) {
     else { return `${Math.abs(end - (start + range))} blocks out of range`; };
   };
 };
+
+function produceTipCalculator(tip) {
+  return function(fare) { return tip * fare; };
+};
